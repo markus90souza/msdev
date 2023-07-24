@@ -1,5 +1,5 @@
 const ProjectsBtn = () => {
-  return <div>Project Btn</div>;
-};
+  return <div>Project Btn</div>
+}
 
-export default ProjectsBtn;
+export default ProjectsBtn
