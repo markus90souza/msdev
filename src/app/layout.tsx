@@ -1,4 +1,5 @@
 import { Header } from '@/components/header'
+import { LayoutAnimate } from '@/components/layout-animate'
 import { Nav } from '@/components/nav'
 import { TopLeftImage } from '@/components/top-left-image'
 import '@/styles/globals.css'
@@ -29,7 +30,8 @@ const RootLayout: FC<RootLayoutProps> = ({ children }) => {
           <TopLeftImage />
           <Nav />
           <Header />
-          {children}
+
+          <LayoutAnimate>{children}</LayoutAnimate>
         </main>
       </body>
     </html>

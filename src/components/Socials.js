@@ -1,5 +1,3 @@
-const Socials = () => {
-  return <div>Socials</div>;
-};
-
-export default Socials;
+export const Socials = () => {
+  return <div>Socials</div>
+}

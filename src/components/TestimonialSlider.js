@@ -21,10 +21,8 @@ const testimonialData = [
     message:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum expedita odit beatae, cupiditate saepe quam officia aut placeat quas neque!',
   },
-];
+]
 
-const TestimonialSlider = () => {
-  return <div>Testimonial Slider</div>;
-};
-
-export default TestimonialSlider;
+export const TestimonialSlider = () => {
+  return <div>Testimonial Slider</div>
+}
