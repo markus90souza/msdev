@@ -17,7 +17,7 @@ export const Particles: FC = () => {
   )
   return (
     <ReactParticles
-      className="w-full h-full absolute translate-z-0"
+      className="translate-z-0 absolute w-full h-full"
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}
